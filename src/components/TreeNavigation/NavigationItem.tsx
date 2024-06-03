@@ -4,6 +4,9 @@ import { INavigationItem } from './TreeNavigation';
 import { NavigationItemToolbar } from './NavigationItemToolbar';
 import { ActionButton, Icon, Link, Stack } from '@fluentui/react';
 import { NavigationLevel } from './NavigationLevel';
+import { initializeIcons } from '@fluentui/font-icons-mdl2';
+
+initializeIcons();
 
 export interface INavigationItemProps {
     item: INavigationItem;
