@@ -9,7 +9,8 @@ const meta = {
   },
   tags: ['autodocs'],
   argTypes: {
-    spinnerSize: { control: { type: 'number', min:5, max:100, step: 1 } },
+    spinnerSize: { control: { type: 'range', min:5, max:100, step: 1 } },
+    loadingStringSize: { control: { type: 'range', min:5, max:100, step: 1 } },
     loadingString: {
       control: {
         type: 'text',
