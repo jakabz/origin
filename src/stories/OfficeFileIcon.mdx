@@ -1,0 +1,28 @@
+
+import { Meta, Controls, Canvas } from '@storybook/blocks';
+import * as OfficeFileIconStories from './OfficeFileIcon.stories';
+
+<Meta of={OfficeFileIconStories} name="Info" />
+
+# Definició
+
+Fájlnevet megadva vissza adja a megfelelő Microsoft Office alkalmazás OfficeFileIconStories
+
+Választhatunk méretet és fájltípust is.
+
+## Használat
+
+A méretválasztáshoz használjuk a IIconSize enumot melynek értéke lehet: 
+    xs = 16,
+    s = 20,
+    m = 24,
+    l = 48,
+    xl = 96,
+
+A fájltípus választáshoz használjuk a IIconType enumot melynek értéke lehet: png, svg
+
+## Bemeneti paraméterek
+
+Az alább látható milyen paraméterek adhatók meg:
+<Controls />
+<Canvas />
